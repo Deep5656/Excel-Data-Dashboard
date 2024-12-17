@@ -1,0 +1,40 @@
+
+
+table {
+  max-width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: auto;
+  display: block;
+}
+.text-center{
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+body {
+  font-family: "monospace";
+}
+h1 {
+  font-family: "monospace";
+}
+p{
+  font-family: "monospace";
+}
+.excel-dashboard-selectors {
+  label, select, input {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
