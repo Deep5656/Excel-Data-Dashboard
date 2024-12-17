@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/dashbord-app",
+            "outputPath": "docs",
+            "baseHref": "/Excel-Data-Dashboard/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
